@@ -18,3 +18,5 @@ jenkins_home/*
 *.key
 id_rsa
 id_rsa.pub
+jenkins.conf
+setup-letsencrypt-ssl.sh
