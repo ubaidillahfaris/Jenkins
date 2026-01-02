@@ -1,0 +1,20 @@
+# Ignore Jenkins home directory (contains sensitive data and logs)
+jenkins_home/*
+
+# Keep the directory structure
+!jenkins_home/.gitkeep
+
+# Environment variables (contains sensitive credentials)
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# SSH Keys (if any)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
